@@ -1,0 +1,101 @@
+/**
+  * @name Onekocord
+  * @author cutekita
+  * @version 2.0.0
+  * @description This is for configuration, do not import this as a theme. Follow the installation instructions.
+  * @website https://github.com/onekocord/onekocord
+*/
+
+/*Imports for all onekocord files. If you are adding to your themes section, copy the links themselves to add them*/
+
+/*IMPORTANT DEPENDENCY, this needs to be active for all other files to work*/
+@import url(https://raw.githubusercontent.com/onekocord/onekocord/main/onekoanimations.css);
+
+/*Onekocord Snippets*/
+@import url(https://raw.githubusercontent.com/onekocord/onekocord/main/onekoattachmenticon.css);
+@import url(https://raw.githubusercontent.com/onekocord/onekocord/main/onekoavatar.css);
+@import url(https://raw.githubusercontent.com/onekocord/onekocord/main/onekohomeicon.css);
+@import url(https://raw.githubusercontent.com/onekocord/onekocord/main/onekomessagebar.css);
+@import url(https://raw.githubusercontent.com/onekocord/onekocord/main/onekoprogressbar.css);
+@import url(https://raw.githubusercontent.com/onekocord/onekocord/main/onekotoolbox.css);
+
+/*Onekocord Settings*/
+
+/*Edit these values to customise Onekocord, you can remove anything you don't want to change, everything has defaults*/
+
+html { /*Onekoattachmenticon*/
+  --onekoattachmenticon-skin: url(https://raw.githubusercontent.com/onekocord/onekocord/main/skins/default.png);/*Replace "default" with the name of any skin, case sensitive*/
+  --onekoattachmenticon-rendering: pixelated; /*https://developer.mozilla.org/en-US/docs/Web/CSS/image-rendering*/
+  --onekoattachmenticon-wakeup-animation: wakeup; /*Any animation, case sensitive*/
+  --onekoattachmenticon-wakeup-duration: 2s; /*Any time value*/
+  --onekoattachmenticon-sleep-animation: sleep; /*Any animation, case sensitive*/
+  --onekoattachmenticon-sleep-duration: 2s; /*Any time value*/
+  --onekoattachmenticon-hovered-animation: scratchright; /*Any animation, case sensitive*/
+  --onekoattachmenticon-hovered-duration: 0.3s; /*Any time value*/
+  --onekoattachmenticon-selected-animation: alert; /*Any animation, case sensitive*/
+  --onekoattachmenticon-selected-duration: 0.3s; /*Any time value*/
+}
+
+html { /*Onekoavatar*/
+  --onekoavatar-skin: url(https://raw.githubusercontent.com/onekocord/onekocord/main/skins/default.png);/*Replace "default" with the name of any skin, case sensitive*/
+  --onekoavatar-rendering: pixelated; /*https://developer.mozilla.org/en-US/docs/Web/CSS/image-rendering*/
+  --onekoavatar-wakeup-animation: wakeup; /*Any animation, case sensitive*/
+  --onekoavatar-wakeup-duration: 2s; /*Any time value*/
+  --onekoavatar-sleep-animation: sleep; /*Any animation, case sensitive*/
+  --onekoavatar-sleep-duration: 2s; /*Any time value*/
+  --onekoavatar-hovered-animation: runright; /*Any animation, case sensitive*/
+  --onekoavatar-hovered-duration: 0.3s; /*Any time value*/
+  --onekoavatar-selected-animation: alert; /*Any animation, case sensitive*/
+  --onekoavatar-selected-duration: 0.3s; /*Any time value*/
+}
+
+html { /*Onekohomeicon*/
+  --onekohomeicon-skin: url(https://raw.githubusercontent.com/onekocord/onekocord/main/skins/default.png); /*Replace "default" with the name of any skin, case sensitive*/
+  --onekohomeicon-rendering: pixelated; /*https://developer.mozilla.org/en-US/docs/Web/CSS/image-rendering*/
+  --onekohomeicon-wakeup-animation: wakeup; /*Any animation, case sensitive*/
+  --onekohomeicon-wakeup-duration: 2s; /*Any time value*/
+  --onekohomeicon-sleep-animation: sleep; /*Any animation, case sensitive*/
+  --onekohomeicon-sleep-duration: 2s; /*Any time value*/
+  --onekohomeicon-hovered-animation: runright; /*Any animation, case sensitive*/
+  --onekohomeicon-hovered-duration: 0.3s; /*Any time value*/
+  --onekohomeicon-selected-animation: alert; /*Any animation, case sensitive*/
+  --onekohomeicon-selected-duration: 0.3s; /*Any time value*/
+}
+
+html { /*Onekomessagebar*/
+  --onekomessagebar-skin: url(https://raw.githubusercontent.com/onekocord/onekocord/main/skins/default.png);/*Replace "default" with the name of any skin, case sensitive*/
+  --onekomessagebar-rendering: pixelated; /*https://developer.mozilla.org/en-US/docs/Web/CSS/image-rendering*/
+  --onekomessagebar-position-top: -30px; /*Any length value*/
+  --onekomessagebar-position-left: 20px; /*Any length value*/
+  --onekomessagebar-wakeup-animation: wakeup; /*Any animation, case sensitive*/
+  --onekomessagebar-wakeup-duration: 2s; /*Any time value*/
+  --onekomessagebar-sleep-animation: sleep; /*Any animation, case sensitive*/
+  --onekomessagebar-sleep-duration: 2s; /*Any time value*/
+  --onekomessagebar-hovered-animation: runright; /*Any animation, case sensitive*/
+  --onekomessagebar-hovered-duration: 0.3s; /*Any time value*/
+  --onekomessagebar-selected-animation: alert; /*Any animation, case sensitive*/
+  --onekomessagebar-selected-duration: 0.3s; /*Any time value*/
+}
+
+html { /*Onekoprogressbar*/
+  --onekoprogressbar-skin: url(https://raw.githubusercontent.com/onekocord/onekocord/main/skins/default.png);/*Replace "default" with the name of any skin, case sensitive*/
+  --onekoprogressbar-rendering: pixelated; /*https://developer.mozilla.org/en-US/docs/Web/CSS/image-rendering*/
+  --onekoprogressbar-position-top: -28px; /*Any length value*/
+  --onekoprogressbar-position-left: -16px; /*Any length value*/
+  --onekoprogressbar-animation: runright; /*Any animation, case sensitive*/
+  --onekoprogressbar-duration: 0.3s; /*Any time value*/
+}
+
+html { /*Onekotoolbox*/
+  --onekotoolbox-skin: url(https://raw.githubusercontent.com/onekocord/onekocord/main/skins/default.png);/*Replace "default" with the name of any skin, case sensitive*/
+  --onekotoolbox-rendering: pixelated; /*https://developer.mozilla.org/en-US/docs/Web/CSS/image-rendering*/
+  --onekotoolbox-wakeup-animation: wakeup; /*Any animation, case sensitive*/
+  --onekotoolbox-wakeup-duration: 2s; /*Any time value*/
+  --onekotoolbox-sleep-animation: sleep; /*Any animation, case sensitive*/
+  --onekotoolbox-sleep-duration: 2s; /*Any time value*/
+  --onekotoolbox-hovered-animation: runright; /*Any animation, case sensitive*/
+  --onekotoolbox-hovered-duration: 0.3s; /*Any time value*/
+  --onekotoolbox-selected-animation: alert; /*Any animation, case sensitive*/
+  --onekotoolbox-selected-duration: 0.3s; /*Any time value*/
+
+}
